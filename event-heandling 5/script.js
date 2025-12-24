@@ -1,18 +1,18 @@
 // In this code we disable the form loading .
 // and print information of this form in the console
 // --------------------------------------------------------
-// let form=document.querySelector("form");
-// let inputs =document.querySelectorAll("input");
+let form=document.querySelector("form");
+let inputs =document.querySelectorAll("input");
 
-// form.addEventListener("submit", function (dets) {
-//     dets.preventDefault();
-//     console.log(
-//         inputs[0].value,
-//         inputs[1].value,
-//         inputs[2].value,
-//         inputs[3].value
-//     );
-// });
+form.addEventListener("submit", function (dets) {
+    dets.preventDefault();
+    console.log(
+        inputs[0].value,
+        inputs[1].value,
+        inputs[2].value,
+        inputs[3].value
+    );
+});
 
 let form = document.querySelector("form");
 let inputs = document.querySelectorAll("input");
